@@ -1,0 +1,226 @@
+:root {
+    --whete-letters: #FFFFFF;
+    --fon: #2F303A;
+    --fonbut: #2196F3;
+    --title-text-color: #212121;
+    --fonbutton: #F5F4FA;
+    --main-text-color: #757575;
+}
+
+body { 
+    background: var(--whete-letters);
+    color: var(--main-text-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+/* index.html */
+/* logo */
+
+.logo {
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;     
+}
+.logo > span {
+     color: var(--fonbut);
+}
+
+
+
+button {
+    font-family: inherit;
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--fonbut);
+}
+
+.site-nav .link.current {
+    color: var(--fonbut);
+}
+
+/* Site contacts */
+
+.site-cont .refer {
+    color: var(--main-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-cont .refer:hover,
+.site-cont .refer:focus {
+    color: var(--fonbut);
+}
+
+/* section Hero */
+
+.hero {
+    background: var(--fon);
+}
+.hero-title {
+    color: var(--whete-letters);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;        
+}
+.hero-button {
+    color: var(--whete-letters);
+    background: var(--fonbut);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+/* Section Benefits */
+
+.section-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.section-text {
+    line-height: 1.71;
+}
+
+.section-work {
+    color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+}
+
+/* Section Our team */
+.team {
+    background: #F5F4FA;
+}
+
+.team-title {
+    color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center; 
+}
+
+.team-second-title {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/* footer */
+
+.logofoot {
+    color: var(--whete-letters);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logofoot>span {
+    color: var(--fonbut);
+}
+
+.norm {
+    font-style: normal  ;
+}
+
+.footer-cont {
+    background: var(--fon);
+}
+.footer-text {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+/* portfolio */
+
+.hidden {
+    display: none;
+}
+
+.button-type     {
+    color: var(--title-text-color);
+    background: var(--fonbutton); 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.site-click .link {
+    color: var(--title-text-color);
+}
+
+.site-click .link:hover,
+.site-click .link:focus {
+    color: var(--whete-letters);
+    background: var(--fonbut);
+}
+
+.underline {
+    text-decoration: none;
+}
+
+.section-title-portfolio {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.descrip {
+    color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+.norm .footer-text:hover,
+.norm .footer-text:focus {
+    color: var(--fonbut);
+}
+
