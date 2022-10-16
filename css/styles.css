@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 :root {
     --whete-letters: #FFFFFF;
     --fon: #2F303A;
@@ -16,6 +26,8 @@ body {
 }
 
 .list {
+    padding: 0;
+    margin: 0;
     list-style: none;
 }
 
@@ -41,6 +53,9 @@ button {
 }
 
 /* Site nav */
+.header {
+    outline: 2px solid tomato;
+}
 
 .site-nav .link {
     color: var(--title-text-color);
@@ -77,18 +92,23 @@ button {
 /* section Hero */
 
 .hero {
+    margin-bottom: 94px;
     background: var(--fon);
+    text-align: center;
 }
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--whete-letters);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;        
 }
 .hero-button {
+    border-radius: 4px;
+    padding: 10px 32px;
     color: var(--whete-letters);
     background: var(--fonbut);
     font-weight: 700;
@@ -96,13 +116,15 @@ button {
     line-height: 1.88;    
     display: flex;
     align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
 }
 
 /* Section Benefits */
 
 .section-title {
+    padding: 0;
+    
+    margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -180,12 +202,31 @@ button {
 /* portfolio */
 
 .hidden {
+    padding: 0;
+    margin: 0;
     display: none;
 }
 
 .button-type     {
+    display: inline-block;
+    padding: 6px 22px;
+    border-radius: 4px;
+    min-width: 103px;
     color: var(--title-text-color);
     background: var(--fonbutton); 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.button-all {
+    display: inline-block;
+    padding: 6px 25px;
+    width: 73px;
+    border-radius: 4px;
+    color: var(--title-text-color);
+    background: var(--fonbutton);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
