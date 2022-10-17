@@ -31,6 +31,15 @@ body {
     list-style: none;
 }
 
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: 2px solid tomato;
+}
+
 /* index.html */
 /* logo */
 
@@ -46,16 +55,11 @@ body {
      color: var(--fonbut);
 }
 
-
-
 button {
     font-family: inherit;
 }
 
 /* Site nav */
-.header {
-    outline: 2px solid tomato;
-}
 
 .site-nav .link {
     color: var(--title-text-color);
@@ -92,6 +96,8 @@ button {
 /* section Hero */
 
 .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
     margin-bottom: 94px;
     background: var(--fon);
     text-align: center;
@@ -121,9 +127,14 @@ button {
 
 /* Section Benefits */
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 118px;
+}
+
 .section-title {
     padding: 0;
-    
+    margin-top: 0;
     margin-bottom: 10px;
     color: var(--title-text-color);
     font-weight: 700;
@@ -133,28 +144,36 @@ button {
 }
 
 .section-text {
+    margin-top: 0;
+    margin-bottom: 94px;
     line-height: 1.71;
 }
 
 .section-work {
+    margin-top: 0;
+    margin-bottom: 50px;
     color: var(--title-text-color);
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 /* Section Our team */
 .team {
+    padding-top: 94px;
+    padding-bottom: 128px;
     background: #F5F4FA;
 }
 
 .team-title {
+    margin-top: 0;
+    margin-bottom: 50px;
     color: var(--title-text-color);
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.17;
-        text-align: center; 
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center; 
 }
 
 .team-second-title {
@@ -209,6 +228,7 @@ button {
 
 .button-type     {
     display: inline-block;
+    margin-bottom: 56px;
     padding: 6px 22px;
     border-radius: 4px;
     min-width: 103px;
@@ -222,6 +242,7 @@ button {
 
 .button-all {
     display: inline-block;
+    margin-bottom: 56;
     padding: 6px 25px;
     width: 73px;
     border-radius: 4px;
@@ -244,10 +265,13 @@ button {
 }
 
 .underline {
+    /* padding-bottom: 20px; */
     text-decoration: none;
 }
 
 .section-title-portfolio {
+    margin-top: 0;
+    /* margin-bottom: 4px; */
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
